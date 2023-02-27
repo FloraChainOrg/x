@@ -1,24 +1,35 @@
 {
-  "name": "FLORA",
-  "logoURI": "https://florachain.org/logo.png",
-  "keywords": [
-    "flora",
-    "defi"
-  ],
-  "timestamp": "2023-02-24T20:00:00.000+00:00",
-  "tokens": [
-    {
-      "chainId": 10500,
-      "address": "0x706277AC1e50a9772d2df80275C2eab9F588F4F7",
-      "name": "Wrapped Flora",
-      "symbol": "wFLORA",
-      "decimals": 18,
-      "logoURI": "https://florachain.org/logo.png"
-    }
-  ],
+  "name": "FloraSwap",
+  "timestamp": "2023-02-25T00:00:00.000Z",
   "version": {
     "major": 1,
     "minor": 0,
     "patch": 0
-  }
+  },
+  "tags": {},
+  "logoURI": "/images/coins/logo.png",
+  "keywords": ["FloraSwap", "default"],
+  "tokens": [
+    {
+      "name": "Florachain-Peg USDT",
+      "symbol": "USDT",
+      "address": "0x7979f4b57b7F17DB2bDcc1c9a8F01A9cA28ad424",
+      "chainId": 10500,
+      "decimals": 18
+    },
+	{
+      "name": "Flora Yield Token",
+      "symbol": "FYT",
+      "address": "0x778325499118F2C710e38B8D55d06bF1b0e5C200",
+      "chainId": 10500,
+      "decimals": 18
+    },
+	{
+      "name": "Wrapped Flora",
+      "symbol": "wFLORA",
+      "address": "0x706277AC1e50a9772d2df80275C2eab9F588F4F7",
+      "chainId": 10500,
+      "decimals": 18
+    }
+  ]
 }
